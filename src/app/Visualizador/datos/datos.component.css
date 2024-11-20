@@ -1,0 +1,8 @@
+/* src/app/Visualizador/visualizador.component.css */
+.color-square {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    transition: background-color 0.5s;
+    /* Agrega una transición suave al cambio de color */
+}

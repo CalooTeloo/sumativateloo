@@ -1,1 +1,6 @@
-<p>view works!</p>
+<div>
+    <h1>Componente View</h1>
+    <app-first-btn (btnClicked)="onButtonClick()"></app-first-btn>
+    <p>rojo</p>
+    <app-datos *ngIf="showSquare" [color]="squareColor"></app-datos>
+</div>
